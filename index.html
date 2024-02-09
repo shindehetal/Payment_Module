@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="main">
+        <section class="sub-main">
+            <header>
+                <h1><span>YAY! It's BOGO</span></h1>
+            </header>
+            <article id="topBox" class="box" onclick="selectRadio('topBox')">
+                <section class="d-flex">
+                    <section class="radio-main d-flex">
+                        <label>
+                            <input type="radio" name="color" />
+                            <span class="custom-radio"></span>
+                        
+                        </label>
+                        <section class="main-units">
+                            <section class="units">
+                                1 Unit<span>10% Off</span>
+                            </section>
+                            <section class="sub-unit">
+                                <section>Standard Price</section>
+                            </section>
+                        </section>
+                    </section>
+                    <section>
+                        <section class="units">$10.00 USD</section>
+                        <section class="sub-unit">
+                            <section><del>$24.00 USD</del></section>
+                        </section>
+                    </section>
+
+                </section>
+                <section class="options">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>size</th>
+                            <th>color</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article id="middleBox" class="expanded box" onclick="selectRadio('middleBox')">
+                <span class="badge">Most Popular</span>
+                <section class="d-flex">
+                    <section class="radio-main d-flex">
+                        <label>
+                            <input type="radio" name="color" checked/>
+                            <span class="custom-radio"></span>
+                        
+                        </label>
+                        <span></span>
+                        <section class="main-units">
+                            <section class="units">
+                                2 Unit<span>20% Off</span>
+                            </section>
+                            <section class="sub-unit">
+                                <section>Standard Price</section>
+                            </section>
+                        </section>
+                    </section>
+                    <section>
+                        <section class="units">$18.00 USD</section>
+                        <section class="sub-unit">
+                            <section><del>$24.00 USD</del></section>
+                        </section>
+                    </section>
+
+                </section>
+                <section class="options">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>size</th>
+                            <th>color</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+
+            <article id="bottomBox" class="box" onclick="selectRadio('bottomBox')">
+                <section class="d-flex">
+                    <section class="radio-main d-flex">
+                        <label>
+                            <input type="radio" name="color" />
+                            <span class="custom-radio"></span>
+                        
+                        </label>
+                        <span></span>
+                        <section class="main-units">
+                            <section class="units">
+                                3 Unit<span>30% Off</span>
+                            </section>
+                            <section class="sub-unit">
+                                <section>Standard Price</section>
+                            </section>
+                        </section>
+                    </section>
+                    <section>
+                        <section class="units">$24.00 USD</section>
+                        <section class="sub-unit">
+                            <section><del>$24.00 USD</del></section>
+                        </section>
+                    </section>
+
+                </section>
+                <section class="options">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th>size</th>
+                            <th>color</th>
+                        </tr>
+                        <tr>
+                            <td>#1</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>#2</td>
+                            <td>
+                                <select id="size" name="S">
+                                    <option value="none" selected disabled hidden>
+                                        S
+                                    </option>
+                                    <option value="S">S</option>
+                                    <option value="L">L</option>
+                                    <option value="M">M</option>
+                                    <option value="XL">XL</option>
+                                </select>
+                            </td>
+                            <td>
+                                <select id="color" name="colour">
+                                    <option value="none" selected disabled hidden>
+                                        C
+                                    </option>
+                                    <option value="S">Red</option>
+                                    <option value="L">Pink</option>
+                                    <option value="M">Grey</option>
+                                    <option value="XL">Blue</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+
+            <article class="box-btm">
+                <section class="d-flex">
+                    <section class="delivery">
+                        Free Delivery
+                    </section>
+                    <section class="total">
+                        Total: $18.00 USD
+                    </section>
+                </section>
+            </article>
+
+            <article class="btn">
+                <section class="btn-sub">
+                    <span>&#x2b;</span>
+                    <p>
+                        Add to Card
+                    </p>
+                </section>
+            </article>
+
+
+            <article class="powered">
+                <section>
+                    <p>&#x40; Powered by Pumper</p>
+                </section>
+            </article>
+
+        </section>
+    </section>
+
+    <script>
+        const topBox = document.getElementById('topBox');
+        const middleBox = document.getElementById('middleBox');
+        const bottomBox = document.getElementById('bottomBox');
+
+        topBox.addEventListener('click', toggleBox);
+        middleBox.addEventListener('click', toggleBox);
+        bottomBox.addEventListener('click', toggleBox);
+
+        function toggleBox(event) {
+            const box = event.currentTarget;
+            const expandedBoxes = document.querySelectorAll('article.expanded');
+            expandedBoxes.forEach((expandedBox) => {
+                if (expandedBox !== box) {
+                    expandedBox.classList.remove('expanded');
+                }
+            });
+            box.classList.toggle('expanded');
+        }
+
+        function selectRadio(boxId) {
+            const box = document.getElementById(boxId);
+            const radios = box.querySelectorAll('input[type="radio"]');
+            radios.forEach(radio => {
+                radio.checked = true;
+            });
+        }
+    </script>
+
+</body>
+
+</html>
